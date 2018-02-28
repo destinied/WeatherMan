@@ -3,7 +3,7 @@
 
 import Adafruit_DHT
 
-sensor = Adafruit_DHT.DHT22
+sensor = Adafruit_DHT.DHT11
 
 pin = 20
 
