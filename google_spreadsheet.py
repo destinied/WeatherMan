@@ -11,7 +11,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 
 DHT_TYPE = Adafruit_DHT.DHT11
-DHT_PIN  = 20
+DHT_PIN  = 12
 
 GDOCS_OAUTH_JSON       = 'WeatherStation.json'
 GDOCS_SPREADSHEET_NAME = 'DHT Humidity Logs'
