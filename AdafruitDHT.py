@@ -10,7 +10,7 @@ if len(sys.argv) == 3 and sys.argv[1] in sensor_args:
     pin = sys.argv[2]
 else:
     print('usage: sudo ./Adafruit_DHT.py 11 GPIOpin#')
-    print('example: sudo ./Adafruit_DHT.py 11 20')
+    print('example: sudo ./Adafruit_DHT.py 11 12')
     sys.exit(1)
 
 humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
